@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title=locals.name
+    meta(name='author', content=locals.owner)
+    link(href=contents['sample.css'].url, rel='stylesheet', type='text/css')
+    link(href=contents.included['sample.css'].url, rel='stylesheet', type='text/css')
+    link(href=contents.excluded['sample.css'].url, rel='stylesheet', type='text/css')
+  body
+    header
+      h1=locals.name
+    main
+      h2=page.title
+      !=page.html
+    footer
+      p &copy; #{locals.owner}
+    script(src=contents['sample.js'].url)
+    script(src=contents.included['sample.js'].url)
+    script(src=contents.excluded['sample.js'].url)

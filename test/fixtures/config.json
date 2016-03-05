@@ -1,0 +1,16 @@
+{
+  "locals": {
+    "url": "http://example.com",
+    "name": "Site Name",
+    "owner": "Site Owner"
+  },
+  "output": "../../tmp",
+  "plugins": [
+    "../../lib/index.js"
+  ],
+  "revision": [
+    "sample.css",
+    "sample.js",
+    "included/**/*"
+  ]
+}

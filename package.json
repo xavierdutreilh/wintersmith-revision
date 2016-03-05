@@ -1,0 +1,47 @@
+{
+  "name": "wintersmith-revision",
+  "description": "A Wintersmith plugin to revise static files",
+  "version": "0.0.0",
+  "homepage": "https://github.com/xavierdutreilh/wintersmith-revision",
+  "author": {
+    "name": "Xavier Dutreilh",
+    "email": "xavier@dutreilh.com",
+    "url": "http://xavier.dutreilh.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xavierdutreilh/wintersmith-revision.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xavierdutreilh/wintersmith-revision/issues"
+  },
+  "license": "MIT",
+  "main": "lib/",
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "scripts": {
+    "pretest": "jshint . && jscs . && wintersmith build -C test/fixtures",
+    "test": "nodeunit"
+  },
+  "dependencies": {
+    "minimatch": "^3.0.0"
+  },
+  "devDependencies": {
+    "jscs": "^2.3.0",
+    "jshint": "^2.8.0",
+    "nodeunit": "^0.9.1",
+    "wintersmith": "^2.0.0"
+  },
+  "peerDependencies": {
+    "wintersmith": "^2.0.0"
+  },
+  "keywords": [
+    "files",
+    "hash",
+    "revision",
+    "static",
+    "wintersmith",
+    "wintersmith-plugin"
+  ]
+}
