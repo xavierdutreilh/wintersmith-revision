@@ -37,8 +37,9 @@
     "wintersmith": "^2.0.0"
   },
   "keywords": [
-    "files",
+    "file",
     "hash",
+    "minimatch",
     "revision",
     "static",
     "wintersmith",
