@@ -1,4 +1,4 @@
-# wintersmith-revision [![Build Status](https://travis-ci.org/xavierdutreilh/wintersmith-revision.svg?branch=master)](https://travis-ci.org/xavierdutreilh/wintersmith-revision)
+# wintersmith-revision [![Build Status](https://travis-ci.org/xavierdutreilh/wintersmith-revision.svg?branch=master)](https://travis-ci.org/xavierdutreilh/wintersmith-revision) [![Dependency Status](https://gemnasium.com/badges/github.com/xavierdutreilh/wintersmith-revision.svg)](https://gemnasium.com/github.com/xavierdutreilh/wintersmith-revision)
 
 > A [Wintersmith](https://github.com/jnordberg/wintersmith) plugin to revise static files
 
