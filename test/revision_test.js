@@ -1,18 +1,18 @@
-'use strict';
+'use strict'
 
-const fs = require('fs');
+const fs = require('fs')
 
-function read(filename) {
-  return fs.readFileSync(filename, 'utf8');
+function read (filename) {
+  return fs.readFileSync(filename, 'utf8')
 }
 
 exports.revision = {
   'build': (test) => {
-    const actual = read(`${__dirname}/../tmp/index.html`);
-    const expected = read(`${__dirname}/expected/index.html`);
+    const actual = read(`${__dirname}/../tmp/index.html`)
+    const expected = read(`${__dirname}/expected/index.html`)
 
-    test.equal(actual, expected, 'should revision static files');
+    test.equal(actual, expected, 'should revision static files')
 
-    test.done();
-  },
-};
+    test.done()
+  }
+}
